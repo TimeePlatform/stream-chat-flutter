@@ -55,6 +55,11 @@ flutter:
     - animations/
   uses-material-design: true
 
+dependency_overrides:
+  dart_vlc:
+    git:
+      url: https://github.com/TimeePlatform/dart_vlc.git
+
 dev_dependencies:
   dart_code_metrics: ^4.4.0
   flutter_test:
