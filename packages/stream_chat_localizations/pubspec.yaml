@@ -15,7 +15,10 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   stream_chat_flutter:
-    path: ../stream_chat_flutter
+    git:
+      url: https://github.com/TimeePlatform/stream-chat-flutter.git
+      ref: release/v6.0.0
+      path: packages/stream_chat_flutter
 
 dev_dependencies:
   dart_code_metrics: ^5.7.2
