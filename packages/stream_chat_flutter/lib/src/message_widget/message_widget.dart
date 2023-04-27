@@ -1169,7 +1169,7 @@ class _StreamMessageWidgetState extends State<StreamMessageWidget>
                     : DisplayWidget.show,
           ),
           onCopyTap: (message) =>
-              Clipboard.setData(ClipboardData(text: message.text)),
+              Clipboard.setData(ClipboardData(text: message.text ?? '')),
           messageTheme: widget.messageTheme,
           reverse: widget.reverse,
           showDeleteMessage: shouldShowDeleteAction,
